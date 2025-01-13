@@ -1,0 +1,24 @@
+services:
+
+  vnpays:
+    container_name: vnpays
+    platform: linux/x86_64
+    build: ./vnpays
+    environment:
+      - CODE_VNPAY=${CODE_VNPAY}
+      - SECRET_KEY_VNPAY=${SECRET_KEY_VNPAY}
+    command: python manage.py runserver 0.0.0.0:8000
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./vnpays:/app
+    networks:
+      - backend
+
+
+# volumes:
+#   mysql_data:
+
+networks:
+  backend:
+    driver: bridge
