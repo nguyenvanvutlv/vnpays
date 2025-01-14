@@ -1,24 +1,26 @@
 services:
-
-  vnpays:
-    container_name: vnpays
+  dev:
+    container_name: dev
     platform: linux/x86_64
-    build: ./vnpays
+    build: ./dev
     environment:
-      - CODE_VNPAY=${CODE_VNPAY}
-      - SECRET_KEY_VNPAY=${SECRET_KEY_VNPAY}
-    command: python manage.py runserver 0.0.0.0:8000
+      - SECRET_KEY_SANDBOX=${SECRET_KEY_SANDBOX}
+      - TERMINAL_CODE_SANDBOX=${TERMINAL_CODE_SANDBOX}
+      - SECRET_KEY_PRODUCTION=${SECRET_KEY_PRODUCTION}
+      - TERMINAL_CODE_PRODUCTION=${TERMINAL_CODE_PRODUCTION}
+      - PAYMENT_RETURN=${PAYMENT_RETURN}
+      - HOST_VNPAY=${HOST_VNPAY}
+      - ENV=${ENV}
+    command: uvicorn main:app --reload --host 0.0.0.0 --port ${HOST_VNPAY}
     ports:
-      - "8000:8000"
+      - "${HOST_VNPAY}:${HOST_VNPAY}"
     volumes:
-      - ./vnpays:/app
-    networks:
-      - backend
+      - ./dev:/app
 
 
 # volumes:
 #   mysql_data:
 
-networks:
-  backend:
-    driver: bridge
+# networks:
+#   backend:
+#     driver: bridge
