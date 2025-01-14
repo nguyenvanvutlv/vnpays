@@ -112,7 +112,7 @@ vnp_SecureHash: <str> - giá trị băm sử dụng cho việc xác thực dữ 
 
 ### CẤU HÌNH CHO PHP (VIẾT PLUGIN CHO WORDPRESS)
 
-- ✅ [Đang cập nhật]
+- ✅ Plugin vnpay: cho phép thanh toán với các phương thức khác nhau (QRCODE, Quốc tế, Tài khoản ngân hàng)
 
 ### CẤU HÌNH CHO PYTHON (VIẾT SERVER TẠO THANH TOÁN)
 
