@@ -55,7 +55,7 @@ Hệ thống sẽ trả về link thanh toán, web sẽ điều hướng ngườ
 ```txt
 ✅ url_sandbox = "https://sandbox.vnpayment.vn/apis/docs/thanh-toan-pay/pay.html?{tham số thanh toán}&vnp_SecretHash={giá trị dùng cho mã hóa}"
 
-✏️ url_product = "updating"
+✅ url_product = "https://pay.vnpay.vn/vpcpay.html?{tham số thanh toán}&vnp_SecretHash={giá trị dùng cho mã hóa}"
 ```
 
 
