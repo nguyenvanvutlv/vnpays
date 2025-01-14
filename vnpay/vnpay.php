@@ -1,9 +1,9 @@
 <?php
 /**
- * Plugin Name: VNPAY WooCommerce Payment Gateway - PAY
- * Description: WooCommerce payment gateway for VNPAY
- * Version: 1.1
- * Author: Tam-DT
+ * Plugin Name: CÔNG THANH TOÁN VNPAY
+ * Description: TÍCH HỢP CỔNG THANH TOÁN VNPAY VÀO TRANG WEB THƯƠNG MẠI ĐIỆN TỬ
+ * Version: 2.1.0
+ * Author: VU NGUYEN VAN
  * Author URI: https://vnpay.vn/
  * Text Domain: wc-vnpay-pay
  * 
