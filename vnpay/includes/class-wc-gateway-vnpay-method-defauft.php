@@ -156,7 +156,7 @@ class WC_Gateway_VNPAY_Method_Defauft extends WC_Payment_Gateway {
             "vnp_OrderType"     => 'other',
             "vnp_ReturnUrl"     => $returnUrl,
             "vnp_TxnRef"        => $orderReference,
-            "vnp_Version"       => '2.1.1',
+            "vnp_Version"       => '2.1.0',
         );
         ksort($inputData);
         $queryString = '';
