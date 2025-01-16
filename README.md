@@ -2,8 +2,8 @@
 
 - Cổng thanh toán VNPAY sử dụng python. Tích hợp vào web bán hàng (thương mại điện tử)
 
-- DOC API SANDBOX: [sandbox](https://sandbox.vnpayment.vn/apis/docs/thanh-toan-pay/pay.html)
-- DOC API PRODUCT: [UPDATING]
+- TÀI LIỆU MÔI TRƯỜNG SANDBOX: [sandbox](https://sandbox.vnpayment.vn/apis/docs/thanh-toan-pay/pay.html)
+- TÀI LIỆU MÔI TRƯỜNG PRODUCT: [UPDATING]
 
 # TÍNH NĂNG
 
