@@ -124,6 +124,10 @@ vnp_SecureHash: <str> - giá trị băm sử dụng cho việc xác thực dữ 
 # CẤU HÌNH GỬI YÊU CẦU HOÀN TRẢ THANH TOÁN
 
 ```.env
-SECRET_KEY_VNPAY=
-CODE_VNPAY=
+ENV=sandbox # or product
+TERMINAL_CODE_SANDBOX=
+SECRET_KEY_SANDBOX=
+TERMINAL_CODE_PRODUCTION=
+SECRET_KEY_PRODUCTION=
+PAYMENT_RETURN=https://{your_domain}/payment_return
 ```
